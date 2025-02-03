@@ -45,11 +45,15 @@ class ULListStr {
    */
   size_t size() const;
 
+  //DONE
+
   /**
    * Returns true if the list is empty, false otherwise
    *   - MUST RUN in O(1)
    */
   bool empty() const;
+
+  // DONE
 
   /**
    * Adds a new value to the back of the list
@@ -130,6 +134,7 @@ class ULListStr {
   Item* head_;
   Item* tail_;
   size_t size_;
+  size_t numItems_;
 };
 
 #endif
